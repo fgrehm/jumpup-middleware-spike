@@ -55,4 +55,7 @@ RSpec.configure do |config|
     # a real object. This is generally recommended.
     mocks.verify_partial_doubles = true
   end
+
+  # Disable global monkey patching
+  config.expose_dsl_globally = false
 end

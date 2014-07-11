@@ -49,6 +49,5 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  guard
   guard-rspec
   rspec
